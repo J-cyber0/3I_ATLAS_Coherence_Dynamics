@@ -1,0 +1,54 @@
+{
+  "object": "3I",
+  "mean_abs_A": 7.868276101880209e-08,
+  "theta_ecl_deg": 86.18553188264936,
+  "orientation_metrics": {
+    "theta_ecl_deg": 86.18553188264936,
+    "theta_jup_deg": 87.40192799811537,
+    "Cphi": 0.05592761611618462
+  },
+  "rayleigh_R": 0.9951411687768392,
+  "rayleigh_p": 0.0,
+  "f_radial": 0.3114988594275554,
+  "bic_table": [
+    {
+      "model": "NGA",
+      "bic": -23688.264650926827,
+      "delta_bic": 0.0,
+      "weight": 1.0,
+      "evidence": "weak",
+      "delta_bic_pos": 140.7369069011911,
+      "delta_bic_log": 2.1514829509992097
+    },
+    {
+      "model": "gravity_only",
+      "bic": -23547.527744025636,
+      "delta_bic": 140.7369069011911,
+      "weight": 2.7502296910806333e-31,
+      "evidence": "decisive",
+      "delta_bic_pos": 0.0,
+      "delta_bic_log": 0.0
+    }
+  ],
+  "best_model": {
+    "model": "NGA",
+    "bic": -23688.264650926827,
+    "delta_bic": 0.0,
+    "weight": 1.0,
+    "evidence": "weak",
+    "delta_bic_pos": 140.7369069011911,
+    "delta_bic_log": 2.1514829509992097
+  },
+  "provenance": {
+    "n_rows": 246,
+    "jd_min": 2460739.5,
+    "jd_max": 2460984.5,
+    "r_mean": 4.482703590126701
+  },
+  "activity_models": {
+    "comet_law": -758.3438935854589,
+    "jet": -813.9275172741944,
+    "best": "jet"
+  },
+  "best_activity_model": "jet"
+}

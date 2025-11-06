@@ -1,0 +1,51 @@
+{
+  "object": "1I",
+  "theta_ecl_deg": 90.24193655240654,
+  "orientation_metrics": {
+    "theta_ecl_deg": 90.24193655240654,
+    "theta_jup_deg": 90.28522013484847,
+    "Cphi": -0.004600293379155771
+  },
+  "rayleigh_p": 2.9673220110689526e-223,
+  "mean_abs_A": 4.181072250371412e-09,
+  "bic_table": [
+    {
+      "model": "NGA",
+      "bic": -30525.225496520376,
+      "delta_bic": 0.0,
+      "weight": 1.0,
+      "evidence": "weak",
+      "delta_bic_pos": 2710.4427183839653,
+      "delta_bic_log": 3.43320043401487
+    },
+    {
+      "model": "gravity_only",
+      "bic": -27814.78277813641,
+      "delta_bic": 2710.4427183839653,
+      "weight": 0.0,
+      "evidence": "decisive",
+      "delta_bic_pos": 0.0,
+      "delta_bic_log": 0.0
+    }
+  ],
+  "activity_models": {
+    "comet_law": -19060.574278373126,
+    "jet": NaN,
+    "best": "gravity_only"
+  },
+  "best_model": {
+    "model": "NGA",
+    "bic": -30525.225496520376,
+    "delta_bic": 0.0,
+    "weight": 1.0,
+    "evidence": "weak",
+    "delta_bic_pos": 2710.4427183839653,
+    "delta_bic_log": 3.43320043401487
+  },
+  "provenance": {
+    "n_rows": 246,
+    "jd_min": 2460739.5,
+    "jd_max": 2460984.5,
+    "r_mean": 47.595270827464276
+  }
+}

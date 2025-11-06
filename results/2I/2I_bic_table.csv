@@ -1,0 +1,3 @@
+model,bic,delta_bic,weight,evidence,delta_bic_pos,delta_bic_log
+NGA,-30499.59643516476,-2659.8994137004374,1.0,weak,2659.8994137004374,3.425028457828161
+gravity_only,-27839.697021464322,0.0,0.0,weak,0.0,0.0

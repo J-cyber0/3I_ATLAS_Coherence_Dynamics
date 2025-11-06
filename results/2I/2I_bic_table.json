@@ -1,0 +1,20 @@
+[
+  {
+    "model":"NGA",
+    "bic":-30499.5964351648,
+    "delta_bic":-2659.8994137004,
+    "weight":1.0,
+    "evidence":"weak",
+    "delta_bic_pos":2659.8994137004,
+    "delta_bic_log":3.4250284578
+  },
+  {
+    "model":"gravity_only",
+    "bic":-27839.6970214643,
+    "delta_bic":0.0,
+    "weight":0.0,
+    "evidence":"weak",
+    "delta_bic_pos":0.0,
+    "delta_bic_log":0.0
+  }
+]
