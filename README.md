@@ -45,7 +45,7 @@ data/
   2I_vectors.csv        # orbital vector data for 2I/Borisov
   3I_vectors.csv        # orbital vector data for 3I/ATLAS
 src/
-  orbit_fit.py           # stub for orbit+NGA fitting (replace with real solver)
+  orbit_fit.py           # for orbit+NGA fitting
   orientation.py         # computes plane alignment vs. ecliptic/Laplace planes
   models.py              # ΔBIC comparison and model diagnostics
   mc_resample.py         # isotropic Monte-Carlo resampling for F1
@@ -71,7 +71,7 @@ It loops through all interstellar objects (1I, 2I, and 3I), loads their correspo
 
 **Additional command-line arguments:**
 ```bash
-python run_all.py --target 3I            # Run a single object only
+python run_all.py --target 3I            # Run a single object only (e.g., 1I, 2I, all)
 python run_all.py --overwrite            # Recompute and overwrite existing results
 python run_all.py --quiet                # Suppress figure generation logs
 ```
